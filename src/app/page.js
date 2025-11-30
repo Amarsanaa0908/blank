@@ -26,17 +26,17 @@ export default function Home() {
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 border border-blue-200 mb-6">
           <div className="w-8 h-8 rounded-full bg-blue-500"></div>
         </div>
-        <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-4 text-gray-900">Dashboard System</h1>
+        <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-4 text-gray-900">Дашбоард систем</h1>
         <p className="text-lg text-gray-600 mb-8">
-          A modern role-based dashboard with Branch and Company management built with Next.js and Tailwind CSS.
+          Орчин үеийн байгууллагуудад хүргэлт захиалгын шийдэл санал болгов Next.js Tailwind ашиглав.
         </p>
         <div className="flex gap-4 justify-center">
           <Link href="/login">
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white font-medium">Sign In</Button>
+            <Button className="bg-blue-600 hover:bg-blue-700 text-white font-medium">Нэвтрэх</Button>
           </Link>
         </div>
         <p className="text-sm text-gray-500 mt-8">
-          Demo credentials: Try logging in as either <strong>Branch</strong> or <strong>Company</strong> user.
+          Танилцуулга: <strong>Салбар</strong> эсвэл <strong>Толгой компани</strong> хэрэглэгчээр нэвтэрч үзээрэй.
         </p>
       </div>
     </div>
